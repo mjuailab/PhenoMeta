@@ -2,10 +2,7 @@
 
 **PhenoMeta** is a phenotype-aware metacell learning framework that compresses scRNA-seq data to enable computationally efficient patient-level phenotype prediction while preserving predictive performance and biological interpretability.
 
-```text
-scRNA-seq -> scGPT -> graph autoencoder -> phenotype-guided metacells
-          -> size-aware attention -> patient-level prediction
-```
+![PhenoMeta Overview](pipeline.svg)
 
 ## 1. Preparation
 
